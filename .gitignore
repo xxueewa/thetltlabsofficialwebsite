@@ -224,3 +224,6 @@ __marimo__/
 
 # Uploaded media files
 media/
+/.idea/website.iml
+.vercel
+.env*

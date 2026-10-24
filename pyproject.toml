@@ -28,11 +28,6 @@ addopts = [
     "--strict-markers",
     "--tb=short",
 ]
-[tool.vercel]
-entrypoint = "config.wsgi:application"
-
-[tool.vercel.scripts]
-build = "python build.py"
 
 [dependency-groups]
 dev = [
