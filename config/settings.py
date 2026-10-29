@@ -168,3 +168,6 @@ else:
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+VERCEL_OIDC_TOKEN = os.environ.get("VERCEL_OIDC_TOKEN")
+BLOB_STORE_ID = os.environ.get("BLOB_STORE_ID")
